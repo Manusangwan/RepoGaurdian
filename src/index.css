@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --color-navy: #0b1437; --color-navy-2: #141f4d;
+  --color-brand: #3b5bfd; --color-brand-dark: #2a45d6;
+  --color-canvas: #f5f8fc; --color-line: #e3e9f2;
+  --color-ink: #0f1a3d; --color-sub: #5b6785; --color-faint: #8d98b3;
+}
+body { background: var(--color-canvas); color: var(--color-ink); font-size: 14px; }
+:focus-visible { outline: 2px solid var(--color-brand); outline-offset: 2px; }
